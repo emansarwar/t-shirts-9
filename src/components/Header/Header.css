@@ -1,0 +1,8 @@
+nav a{
+    text-decoration: none;
+    color: brown;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: cadetblue;
+}
