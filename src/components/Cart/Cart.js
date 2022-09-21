@@ -4,7 +4,7 @@ const Cart = ({ cart, handleRemoveFromCart}) => {
 
 
     return (
-        <div>
+        <div className='cart-main'>
             <h2>ITEMS SELECTED:{cart.length}</h2>
             {
                 cart.map(tshirt => <p>
